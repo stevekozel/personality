@@ -1,7 +1,6 @@
-
 (function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;
 //Edge symbol: 'stage'
-(function(symbolName){Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){$('Stage').css({"background-image":"url('images/seamlesstexture6_1200.png')"});});
+(function(symbolName){Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){$('Stage').css({"background-image":"url('http://courseoflife.kosekozel.com/images/seamlesstexture6_1200.png')"});});
 //Edge binding end
 Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.stop();});
 //Edge binding end
